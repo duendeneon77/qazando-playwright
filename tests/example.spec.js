@@ -16,6 +16,7 @@ import { test, expect } from '@playwright/test';
 test.beforeEach(async({page})=>{
   await page.goto('https://automationpratice.com.br/');
 })
+//AQUI VAMOS FINGIR QUE HOUVE MODIFICAÇÃO, PARA CRIARMOS A BRANCH. 
 
 test('login', async ({ page }) => {
 
